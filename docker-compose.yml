@@ -20,7 +20,7 @@ services:
   
   gateway-service:
     build:
-      context: ./gatewayService
+      context: ./gateway
     ports:
       - "8888:8888"
     depends_on:
